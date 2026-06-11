@@ -1,0 +1,172 @@
+============================================================
+SCRIPTS DE AUTOMATIZACIÓN CON PYTHON
+============================================================
+
+Ahorra horas con código listo para usar
+
+Precio: $18
+Categoria: CODE-BUNDLE
+Fecha: 2026-06-11
+
+============================================================
+
+**Automatización con Python**
+
+A continuación, se presentan dos ejemplos de scripts de automatización en Python. Estos scripts se pueden utilizar para realizar tareas de manera automatizada y eficiente.
+
+### Script 1: Automatización de la actualización de paquetes en Linux
+
+Este script se encarga de actualizar los paquetes en un sistema Linux de manera automatizada.
+
+#### scripts/update_paquetes.py
+```python
+#!/usr/bin/env python3
+
+"""
+Script para actualizar los paquetes en un sistema Linux de manera automatizada.
+
+Requiere:
+- Acceso root al sistema
+- Paquete apt o dnf instalado
+"""
+
+import subprocess
+import os
+
+def actualizar_paquetes():
+    """
+    Actualiza los paquetes en el sistema Linux.
+    """
+    # Verificar si se tiene acceso root
+    if os.geteuid() != 0:
+        print("Error: Necesita acceso root para ejecutar este script.")
+        return
+
+    # Seleccionar el paquete de gestión de paquetes
+    package_manager = "apt"  # apt o dnf
+    if package_manager == "apt":
+        comando = "sudo apt update && sudo apt full-upgrade -y"
+    elif package_manager == "dnf":
+        comando = "sudo dnf check-update && sudo dnf upgrade -y"
+
+    # Ejecutar el comando
+    try:
+        subprocess.run(comando, shell=True)
+        print("Paquetes actualizados con éxito.")
+    except Exception as e:
+        print(f"Error al actualizar paquetes: {e}")
+
+if __name__ == "__main__":
+    actualizar_paquetes()
+```
+
+#### README.md
+```markdown
+# Actualizar paquetes en Linux de manera automatizada
+
+Este script se encarga de actualizar los paquetes en un sistema Linux de manera automatizada.
+
+## Requisitos
+
+* Acceso root al sistema
+* Paquete `apt` o `dnf` instalado
+
+## Uso
+
+1. Edite el script `update_paquetes.py` y ajuste el paquete de gestión de paquetes (`apt` o `dnf`) según sea necesario.
+2. Ejecute el script con permisos de superusuario (root): `sudo python3 update_paquetes.py`
+
+## Ejemplo de uso
+```bash
+sudo python3 update_paquetes.py
+```
+```
+
+### Script 2: Automatización de respaldos de bases de datos MySQL
+
+Este script se encarga de realizar respaldos de bases de datos MySQL de manera automatizada.
+
+#### scripts/respaldar_bases.py
+```python
+#!/usr/bin/env python3
+
+"""
+Script para realizar respaldos de bases de datos MySQL de manera automatizada.
+
+Requiere:
+- Acceso root a la base de datos
+- Paquete `mysql-connector-python` instalado
+"""
+
+import mysql.connector
+import os
+import datetime
+
+def respaldar_base():
+    """
+    Realiza un respaldo de la base de datos MySQL.
+    """
+    # Verificar si se tiene acceso root a la base de datos
+    if not os.environ.get("DB_HOST") or not os.environ.get("DB_USER") or not os.environ.get("DB_PASSWORD"):
+        print("Error: Necesita proporcionar la información de conexión a la base de datos.")
+        return
+
+    # Seleccionar la base de datos a respaldar
+    database = "mi_base_de_datos"
+
+    # Conectar a la base de datos
+    try:
+        cnx = mysql.connector.connect(
+            host=os.environ.get("DB_HOST"),
+            user=os.environ.get("DB_USER"),
+            password=os.environ.get("DB_PASSWORD"),
+            database=database
+        )
+    except mysql.connector.Error as err:
+        print(f"Error al conectar a la base de datos: {err}")
+        return
+
+    # Realizar el respaldo
+    try:
+        cursor = cnx.cursor()
+        comando = f"mysqldump -u {os.environ.get('DB_USER')} -p{os.environ.get('DB_PASSWORD')} {database} > respaldo_{datetime.date.today().strftime('%Y%m%d')}.sql"
+        subprocess.run(comando, shell=True)
+        print("Base de datos respaldada con éxito.")
+    except Exception as e:
+        print(f"Error al realizar el respaldo: {e}")
+
+    # Cerrar la conexión
+    cnx.close()
+
+if __name__ == "__main__":
+    respaldar_base()
+```
+
+#### README.md
+```markdown
+# Realizar respaldos de bases de datos MySQL de manera automatizada
+
+Este script se encarga de realizar respaldos de bases de datos MySQL de manera automatizada.
+
+## Requisitos
+
+* Acceso root a la base de datos
+* Paquete `mysql-connector-python` instalado
+
+## Uso
+
+1. Edite el script `respaldar_bases.py` y ajuste la información de conexión a la base de datos según sea necesario.
+2. Ejecute el script con permisos de superusuario (root): `sudo python3 respaldar_bases.py`
+
+## Ejemplo de uso
+```bash
+sudo DB_HOST=localhost DB_USER=root DB_PASSWORD=password python3 respaldar_bases.py
+```
+```
+
+Recuerde ajustar la información de conexión a la base de datos en el script `respaldar_bases.py` según sea necesario.
+
+============================================================
+Gracias por tu compra!
+AI Business Engine - davidverse0888.gumroad.com
+============================================================

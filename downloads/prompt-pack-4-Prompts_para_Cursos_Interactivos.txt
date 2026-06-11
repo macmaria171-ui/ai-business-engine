@@ -1,0 +1,276 @@
+============================================================
+PROMPTS PARA CURSOS INTERACTIVOS
+============================================================
+
+Diseña lecciones que enganchen y retengan
+
+Precio: $10
+Categoria: PROMPT-PACK
+Fecha: 2026-06-11
+
+============================================================
+
+**30 Prompts Profesionales para “Cursos Interactivos” (educación online)**  
+
+---  
+
+### 1. Uso: Diseñar una lección introductoria gamificada  
+**Prompt:**  
+> *Eres un diseñador instruccional especializado en gamificación. Crea una lección introductoria de 15 min para un curso online de “Fundamentos de Marketing Digital”. Incluye:  
+> 1. Un objetivo de aprendizaje claro.  
+> 2. Una mecánica de juego (puntos, niveles, badges).  
+> 3. Un desafío inicial que motive la participación.  
+> 4. Instrucciones paso‑a‑paso para el docente y ejemplos de feedback inmediato para los estudiantes.*  
+
+---  
+
+### 2. Uso: Generar un caso práctico interactivo  
+**Prompt:**  
+> *Actúa como consultor de casos de negocio. Elabora un caso práctico interactivo de 10 preguntas para un curso de “Finanzas Corporativas”. Cada pregunta debe presentar datos reales (balanzas, ratios) y ofrecer tres opciones de respuesta con retroalimentación diferenciada según la elección.*  
+
+---  
+
+### 3. Uso: Crear una actividad de debate en foro  
+**Prompt:**  
+> *Eres moderador de foros académicos. Propón una actividad de debate de 30 min para un módulo de “Ética en la Inteligencia Artificial”. Incluye:  
+> - una pregunta central polémica,  
+> - dos posiciones base con argumentos,  
+> - instrucciones para que los estudiantes publiquen al menos 150 palabras y respondan a dos compañeros,  
+> - criterios de evaluación (claridad, evidencia, respeto).*  
+
+---  
+
+### 4. Uso: Diseñar una evaluación tipo “arrastrar‑y‑soltar”  
+**Prompt:**  
+> *Como experto en e‑learning, crea una actividad de arrastrar‑y‑soltar para un curso de “Anatomía Humana”. Necesito 12 pares (estructura‑función) con etiquetas en español, instrucciones breves y feedback automático (correcto/incorrecto) que incluya una breve explicación de la respuesta.*  
+
+---  
+
+### 5. Uso: Planificar una sesión de laboratorio virtual  
+**Prompt:**  
+> *Eres coordinador de laboratorios virtuales de química. Diseña una sesión de 45 min para “Reacciones de óxido‑reducción”. Detalla:  
+> - objetivo de la práctica,  
+> - materiales y simulador recomendado (p.ej., PhET),  
+> - pasos guiados con preguntas interactivas,  
+> - tabla de resultados que los estudiantes deben completar,  
+> - preguntas de reflexión al final.*  
+
+---  
+
+### 6. Uso: Generar tarjetas de memorización (flashcards) interactivas  
+**Prompt:**  
+> *Como creador de contenidos microlearning, elabora 20 flashcards para un curso de “Vocabulario de Negocios en Inglés”. Cada tarjeta debe contener:  
+> - término en inglés,  
+> - definición en español,  
+> - ejemplo de uso en una oración,  
+> - pista visual (emoji o icono).  
+> Indica también cómo configurarlas en una herramienta tipo Quizlet o Genially.*  
+
+---  
+
+### 7. Uso: Producir un quiz de auto‑evaluación con retroalimentación adaptativa  
+**Prompt:**  
+> *Actúa como diseñador instruccional. Redacta un quiz de 12 preguntas de opción múltiple para el módulo “Métodos de Investigación Cuantitativa”. Cada pregunta debe incluir:  
+> 1. Enunciado,  
+> 2. 4 opciones,  
+> 3. Explicación detallada del porqué la respuesta correcta es correcta y por qué las demás son incorrectas,  
+> 4. Un mensaje de refuerzo o de reintento según el puntaje obtenido.*  
+
+---  
+
+### 8. Uso: Crear una infografía interactiva paso a paso  
+**Prompt:**  
+> *Eres diseñador de contenido visual. Genera la estructura de una infografía interactiva para explicar “El ciclo del agua”. Indica:  
+> - los bloques de información (título, proceso, datos curiosos),  
+> - los elementos interactivos (clic para ampliar, hover con datos),  
+> - colores y tipografía recomendada,  
+> - texto alternativo para accesibilidad.*  
+
+---  
+
+### 9. Uso: Elaborar una encuesta de satisfacción con lógica condicional  
+**Prompt:**  
+> *Como especialista en experiencia del estudiante, escribe una encuesta de 8 preguntas para medir la satisfacción de un curso de “Programación Python”. Incluye lógica condicional: si la respuesta a la pregunta 3 es “No”, muestra una pregunta abierta de mejora; si la respuesta a la pregunta 5 es “Excelente”, muestra una pregunta de recomendación.*  
+
+---  
+
+### 10. Uso: Diseñar una actividad de “role‑play” en tiempo real  
+**Prompt:**  
+*Eres facilitador de actividades síncronas. Propón un role‑play de 20 min para un curso de “Negociación Internacional”. Detalla:  
+- los roles (comprador, vendedor, traductor),  
+- escenario de negocio,  
+- guion breve con objetivos por rol,  
+- preguntas de reflexión post‑actividad y rúbrica de evaluación.*  
+
+---  
+
+### 11. Uso: Crear un mapa conceptual interactivo  
+**Prompt:**  
+> *Actúa como experto en herramientas de mapas mentales. Diseña la estructura de un mapa conceptual interactivo para “Tipos de Energías Renovables”. Cada nodo debe permitir:  
+> - expansión con texto,  
+> - enlace a un video corto,  
+> - botón de “quiz rápido” que evalúe el concepto.*  
+
+---  
+
+### 12. Uso: Generar una lista de retos diarios tipo “micro‑learning”  
+**Prompt:**  
+> *Como diseñador de micro‑cursos, escribe 7 retos diarios (uno por día) para un programa de “Productividad Personal”. Cada reto debe incluir:  
+> - objetivo breve,  
+> - acción concreta (máx. 5 min),  
+> - pregunta de auto‑reflexión,  
+> - espacio para que el estudiante registre su respuesta.*  
+
+---  
+
+### 13. Uso: Producir un video interactivo con decisiones ramificadas  
+**Prompt:**  
+> *Eres guionista de videos educativos. Escribe el guion de un video interactivo de 8 min para “Ciberseguridad básica”. Incluye al menos 3 puntos de decisión donde el estudiante elija entre dos acciones, y describe el contenido que se mostrará en cada rama y el feedback correspondiente.*  
+
+---  
+
+### 14. Uso: Crear una tabla de seguimiento de progreso para estudiantes  
+**Prompt:**  
+> *Como analista de aprendizaje, diseña una tabla de seguimiento (Google Sheets) para que los alumnos de “Historia del Arte” registren:  
+> - módulo completado,  
+> - puntuación del quiz,  
+> - horas dedicadas,  
+> - comentarios de auto‑evaluación.  
+> Proporciona fórmulas para calcular el porcentaje de avance y una barra de progreso visual.*  
+
+---  
+
+### 15. Uso: Redactar una guía de buenas prácticas para foros colaborativos  
+**Prompt:**  
+> *Actúa como pedagogo digital. Escribe una guía de 800 palabras con normas de etiqueta, ejemplos de preguntas efectivas y tips para dar feedback constructivo en foros de un curso de “Desarrollo Web”. Incluye un checklist descargable.*  
+
+---  
+
+### 16. Uso: Diseñar una actividad de “matching” con audio  
+**Prompt:**  
+> *Eres creador de contenidos de idiomas. Elabora una actividad de “matching” para nivel intermedio de inglés, donde los estudiantes deben emparejar 10 frases en inglés con su traducción al español y un clip de audio de la pronunciación. Indica los recursos (URL de audio) y la retroalimentación para cada pareja.*  
+
+---  
+
+### 17. Uso: Generar un cuestionario de diagnóstico previo al curso  
+**Prompt:**  
+> *Como especialista en evaluación diagnóstica, formula 15 preguntas de opción múltiple para medir los conocimientos previos de los alumnos en “Statistical Data Analysis”. Cada pregunta debe incluir nivel de dificultad (bajo, medio, alto) y una breve explicación del concepto evaluado.*  
+
+---  
+
+### 18. Uso: Crear una actividad de “brainstorming” colaborativo en tiempo real  
+**Prompt:**  
+> *Eres facilitador de sesiones virtuales. Diseña una actividad de 15 min para un curso de “Innovación y Design Thinking”. Incluye:  
+> - herramienta recomendada (Miro, Jamboard),  
+> - pregunta disparadora,  
+> - reglas de participación,  
+> - formato de captura de ideas (post‑its digitales),  
+> - criterios de selección de la mejor idea.*  
+
+---  
+
+### 19. Uso: Producir un script para chatbot de tutoría  
+**Prompt:**  
+> *Actúa como diseñador de IA educativa. Redacta un script de conversación para un chatbot que apoye a los estudiantes del módulo “Fundamentos de Estadística”. El bot debe:  
+> 1. Saludar y preguntar el tema de ayuda,  
+> 2. Ofrecer explicaciones breves, ejemplos y enlaces a recursos,  
+> 3. Detectar cuando el alumno está atascado y proponer ejercicios de práctica.*  
+
+---  
+
+### 20. Uso: Crear una rúbrica de evaluación para proyecto final  
+**Prompt:**  
+> *Como evaluador académico, elabora una rúbrica de 4 criterios (Contenido, Creatividad, Calidad Técnica, Presentación) para el proyecto final de un curso de “Producción de Video”. Cada criterio debe tener 4 niveles (Excelente, Bueno, Aceptable, Insuficiente) con descriptores claros y puntaje total de 100.*  
+
+---  
+
+### 21. Uso: Diseñar una actividad de “juego de roles” asincrónico  
+**Prompt:**  
+> *Eres diseñador instruccional de MOOCs. Propón una actividad asincrónica de role‑play para un curso de “Derecho Laboral”. Los estudiantes deben:  
+> - elegir un rol (empleador, empleado, inspector),  
+> - redactar un documento (contrato, queja, informe) en 500 palabras,  
+> - subirlo a la plataforma y comentar al menos dos documentos de compañeros.*  
+
+---  
+
+### 22. Uso: Generar un conjunto de preguntas de reflexión al final de cada módulo  
+**Prompt:**  
+> *Actúa como facilitador de aprendizaje reflexivo. Escribe 5 preguntas abiertas de reflexión para el módulo “Gestión de Proyectos Ágiles”. Cada pregunta debe invitar al estudiante a conectar la teoría con su experiencia profesional y a definir una acción concreta para aplicar la próxima semana.*  
+
+---  
+
+### 23. Uso: Crear una actividad de “búsqueda del tesoro” digital  
+**Prompt:**  
+> *Como creador de experiencias lúdicas, diseña una “búsqueda del tesoro” de 10 pistas para un curso de “Historia Universal”. Cada pista debe:  
+> - indicar un recurso (artículo, video, sitio web),  
+> - contener una pregunta que solo se responde al revisar el recurso,  
+> - otorgar puntos por rapidez y exactitud.*  
+
+---  
+
+### 24. Uso: Elaborar una hoja de trabajo interactiva (PDF con campos rellenables)  
+**Prompt:**  
+> *Eres diseñador de materiales PDF interactivos. Genera la estructura de una hoja de trabajo de 2 páginas para “Análisis de Caso de Marketing”. Debe incluir:  
+> - tabla de datos,  
+> - campos de respuesta corta,  
+> - casillas de verificación,  
+> - espacio para comentarios del docente.*  
+
+---  
+
+### 25. Uso: Producir una serie de “micro‑videos” con preguntas integradas  
+**Prompt:**  
+> *Como productor de video educativo, escribe el guion de tres micro‑videos de 2 min cada uno para “Conceptos básicos de Blockchain”. Cada video debe terminar con una pregunta de opción múltiple que se muestra en pantalla y que el estudiante debe responder antes de continuar.*  
+
+---  
+
+### 26. Uso: Crear una actividad de “peer‑review” estructurada  
+**Prompt:**  
+> *Actúa como coordinador de revisión entre pares. Diseña un proceso de 4 pasos para que los estudiantes de “Redacción Académica” revisen el borrador de un compañero:  
+> 1. Checklist de aspectos a evaluar,  
+> 2. Comentario constructivo (máx. 150 palabras),  
+> 3. Sugerencia de mejora,  
+> 4. Auto‑evaluación del revisor.  
+> Proporciona la plantilla descargable.*  
+
+---  
+
+### 27. Uso: Generar un plan de actividades semanales con tiempos estimados  
+**Prompt:**  
+> *Como planificador de cursos, elabora un cronograma semanal de 6 semanas para un programa de “Fotografía Digital”. Cada semana debe incluir:  
+> - objetivo de aprendizaje,  
+> - actividad principal (video, práctica, foro),  
+> - tiempo estimado (minutos),  
+> - recurso necesario y  
+> - criterio de éxito.*  
+
+---  
+
+### 28. Uso: Diseñar una actividad de “drag‑and‑drop” para clasificación taxonómica  
+**Prompt:**  
+> *Eres biólogo educativo. Crea una actividad de arrastrar‑y‑soltar donde los estudiantes deben clasificar 12 especies animales en sus respectivos reinos (Animalia, Plantae, Fungi, Protista, Monera). Proporciona los nombres científicos, una breve descripción y el feedback que se mostrará al soltar cada elemento.*  
+
+---  
+
+### 29. Uso: Crear una encuesta de diagnóstico de estilos de aprendizaje  
+**Prompt:**  
+> *Como experto en psicología educativa, redacta una encuesta de 12 ítems que identifique los estilos de aprendizaje (visual, auditivo, kinestésico, lectura/escritura) de los participantes de un curso de “Programación Web”. Incluye escala Likert (1‑5) y una breve interpretación de los resultados.*  
+
+---  
+
+### 30. Uso: Generar una guía de uso de herramientas colaborativas (Google Workspace)  
+**Prompt:**  
+> *Actúa como instructor de tecnología. Redacta una guía paso a paso (≈1 200 palabras) para que los estudiantes de un programa de “Emprendimiento” utilicen Google Docs, Slides y Sheets en proyectos colaborativos. Incluye:  
+> - creación y compartir documentos,  
+> - uso de comentarios y sugerencias,  
+> - control de versiones,  
+> - buenas prácticas de organización de carpetas.*  
+
+---  
+
+*Cada prompt está listo para copiar‑pegar en tu modelo de IA o en tu herramienta de creación de contenidos y adaptarse al nivel, audiencia y plataforma que estés utilizando.*
+
+============================================================
+Gracias por tu compra!
+AI Business Engine - davidverse0888.gumroad.com
+============================================================

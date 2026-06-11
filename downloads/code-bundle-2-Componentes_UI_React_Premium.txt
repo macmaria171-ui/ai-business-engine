@@ -1,0 +1,106 @@
+============================================================
+COMPONENTES UI REACT PREMIUM
+============================================================
+
+Construye interfaces modernas en minutos
+
+Precio: $20
+Categoria: CODE-BUNDLE
+Fecha: 2026-06-11
+
+============================================================
+
+**Script 1: Generador de contraseña aleatoria**
+
+Este script utiliza la biblioteca `secrets` para generar contraseñas aleatorias de longitud variable.
+```python
+# password_generator.py
+
+"""
+Script para generar contraseñas aleatorias.
+
+Utiliza la biblioteca secrets para generar contraseñas seguras y únicas.
+"""
+
+import secrets
+import string
+
+def generar_contrasena(tamano=12):
+    """
+    Genera una contraseña aleatoria de la longitud especificada.
+
+    Args:
+        tamano (int): Longitud de la contraseña. Por defecto es 12.
+
+    Returns:
+        str: Contraseña aleatoria.
+    """
+    alfabeto = string.ascii_letters + string.digits + string.punctuation
+    contrasena = ''.join(secrets.choice(alfabeto) for _ in range(tamano))
+    return contrasena
+
+if __name__ == '__main__':
+    print(generar_contrasena(16))
+```
+
+**Script 2: Validador de correo electrónico**
+
+Este script utiliza la biblioteca `re` para validar formatos de correo electrónico.
+```python
+# email_validator.py
+
+"""
+Script para validar formatos de correo electrónico.
+
+Utiliza la biblioteca re para comprobar si el correo electrónico es válido.
+"""
+
+import re
+
+def validar_correo(email):
+    """
+    Valida si el correo electrónico es válido.
+
+    Args:
+        email (str): Correo electrónico a validar.
+
+    Returns:
+        bool: Verdadero si el correo electrónico es válido, falso en caso contrario.
+    """
+    patron = r"^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
+    return bool(re.match(patron, email))
+
+if __name__ == '__main__':
+    print(validar_correo("john.doe@example.com"))  # Verdadero
+    print(validar_correo("john.doe"))  # Falso
+```
+
+**README**
+
+Este proyecto contiene dos scripts Python para desarrollo web:
+
+*   `password_generator.py`: Generador de contraseñas aleatorias utilizando la biblioteca `secrets`.
+*   `email_validator.py`: Validador de formatos de correo electrónico utilizando la biblioteca `re`.
+
+Ambos scripts tienen una documentación en forma de docstrings y pueden ser utilizados en proyectos de desarrollo web para generar contraseñas seguras y validar formatos de correo electrónico.
+
+**Uso**
+
+Para utilizar los scripts, simplemente ejecutarlos con Python:
+```bash
+python password_generator.py
+python email_validator.py
+```
+Los scripts también pueden ser importados en otros scripts Python:
+```python
+import password_generator
+import email_validator
+
+password_generator.generar_contrasena(16)
+email_validator.validar_correo("john.doe@example.com")
+```
+
+============================================================
+Gracias por tu compra!
+AI Business Engine - davidverse0888.gumroad.com
+============================================================

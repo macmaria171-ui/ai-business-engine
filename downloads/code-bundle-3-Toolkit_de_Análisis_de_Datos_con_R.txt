@@ -1,0 +1,178 @@
+============================================================
+TOOLKIT DE ANÁLISIS DE DATOS CON R
+============================================================
+
+Transforma datos crudos en insights accionables
+
+Precio: $22
+Categoria: CODE-BUNDLE
+Fecha: 2026-06-11
+
+============================================================
+
+**Script 1: Análisis de Datos con Pandas y NumPy**
+
+Este script permite analizar una base de datos almacenada en un archivo CSV. Utiliza pandas para leer y manipular los datos y NumPy para realizar operaciones matemáticas.
+
+### `data_analysis.py`
+
+```python
+import pandas as pd
+import numpy as np
+
+def cargar_datos(file_path):
+    """
+    Carga los datos desde un archivo CSV.
+
+    Parameters:
+    file_path (str): Ruta del archivo CSV.
+
+    Returns:
+    pd.DataFrame: Base de datos cargada.
+    """
+    try:
+        return pd.read_csv(file_path)
+    except Exception as e:
+        print(f"Error al cargar datos: {e}")
+        return None
+
+def calcular_promedio(data):
+    """
+    Calcula el promedio de una columna de la base de datos.
+
+    Parameters:
+    data (pd.DataFrame): Base de datos.
+
+    Returns:
+    float: Promedio de la columna.
+    """
+    if not data.empty:
+        return np.mean(data.iloc[:, 0])
+    else:
+        return None
+
+def analizar_datos(file_path):
+    """
+    Analiza los datos del archivo CSV.
+
+    Parameters:
+    file_path (str): Ruta del archivo CSV.
+
+    Returns:
+    dict: Resultados de la análisis.
+
+    """
+    datos = cargar_datos(file_path)
+    if datos is not None:
+        promedio = calcular_promedio(datos)
+        return {"promedio": promedio, "datos": datos}
+    else:
+        return {"error": "No se pudo cargar la base de datos"}
+
+if __name__ == "__main__":
+    file_path = "datos.csv"
+    resultado = analizar_datos(file_path)
+    if "error" not in resultado:
+        print(f"Promedio: {resultado['promedio']}")
+        print(resultado['datos'])
+```
+
+**Script 2: Visualización de Datos con Matplotlib y Seaborn**
+
+Este script permite visualizar una base de datos almacenada en un archivo CSV. Utiliza matplotlib para crear gráficos básicos y seaborn para crear gráficos más complejos.
+
+### `data_visualization.py`
+
+```python
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+def cargar_datos(file_path):
+    """
+    Carga los datos desde un archivo CSV.
+
+    Parameters:
+    file_path (str): Ruta del archivo CSV.
+
+    Returns:
+    pd.DataFrame: Base de datos cargada.
+    """
+    try:
+        return pd.read_csv(file_path)
+    except Exception as e:
+        print(f"Error al cargar datos: {e}")
+        return None
+
+def crear_grafico_barras(data, columna):
+    """
+    Crea un gráfico de barras para una columna de la base de datos.
+
+    Parameters:
+    data (pd.DataFrame): Base de datos.
+    columna (str): Nombre de la columna.
+
+    Returns:
+    None
+    """
+    if not data.empty:
+        sns.barplot(x=data[columna], y=data.index)
+        plt.title(f"Grafico de Barras de {columna}")
+        plt.xlabel(columna)
+        plt.ylabel("Índice")
+        plt.show()
+
+def crear_grafico_circular(data, columna):
+    """
+    Crea un gráfico circular para una columna de la base de datos.
+
+    Parameters:
+    data (pd.DataFrame): Base de datos.
+    columna (str): Nombre de la columna.
+
+    Returns:
+    None
+    """
+    if not data.empty:
+        plt.figure(figsize=(10, 8))
+        sns.set_style("whitegrid")
+        plt.pie(data[columna], labels=data.index, autopct='%1.1f%%')
+        plt.title(f"Grafico Circular de {columna}")
+        plt.show()
+
+def visualizar_datos(file_path):
+    """
+    Visualiza los datos del archivo CSV.
+
+    Parameters:
+    file_path (str): Ruta del archivo CSV.
+
+    Returns:
+    None
+    """
+    datos = cargar_datos(file_path)
+    if datos is not None:
+        columna = datos.columns[0]
+        crear_grafico_barras(datos, columna)
+        crear_grafico_circular(datos, columna)
+
+if __name__ == "__main__":
+    file_path = "datos.csv"
+    visualizar_datos(file_path)
+```
+
+**README**
+
+Este repositorio contiene dos scripts en Python para data science:
+
+*   `data_analysis.py`: Analiza una base de datos almacenada en un archivo CSV, calculando el promedio de una columna y cargando la base de datos.
+*   `data_visualization.py`: Visualiza una base de datos almacenada en un archivo CSV, creando gráficos de barras y circulares para una columna de la base de datos.
+
+Ambos scripts utilizan pandas para leer y manipular los datos y NumPy para realizar operaciones matemáticas. El primer script utiliza Matplotlib para crear gráficos básicos, mientras que el segundo script utiliza Seaborn para crear gráficos más complejos.
+
+Para ejecutar estos scripts, asegúrese de tener instaladas las bibliotecas necesarias (pandas, numpy, matplotlib y seaborn) en su entorno de Python.
+
+============================================================
+Gracias por tu compra!
+AI Business Engine - davidverse0888.gumroad.com
+============================================================

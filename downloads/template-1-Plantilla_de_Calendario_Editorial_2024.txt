@@ -1,0 +1,222 @@
+============================================================
+PLANTILLA DE CALENDARIO EDITORIAL 2024
+============================================================
+
+Planifica tu contenido mes a mes sin perder detalle
+
+Precio: $12
+Categoria: TEMPLATE
+Fecha: 2026-06-11
+
+============================================================
+
+**Plantilla de Calendario Editorial 2024 para Marketing de Contenidos**
+================================================================================
+
+### Información General
+
+* **Título del contenido**: [Insertar título del contenido]
+* **Fecha de publicación**: [Insertar fecha de publicación]
+* **Categoría**: Marketing de Contenidos
+* **Palabras clave**: [Insertar palabras clave relevantes]
+
+### Secciones del Calendario
+
+#### Enero
+
+* **Publicaciones**
+ + [Fecha]: [Título del contenido]: [Breve descripción del contenido]
+ + [Fecha]: [Título del contenido]: [Breve descripción del contenido]
+ + ...
+* **Actualizaciones en redes sociales**
+ + [Fecha]: [Tipo de publicación]: [Descripción de la publicación]
+ + [Fecha]: [Tipo de publicación]: [Descripción de la publicación]
+ + ...
+* **Noticias y eventos**
+ + [Fecha]: [Nombre del evento]: [Breve descripción del evento]
+ + [Fecha]: [Nombre del evento]: [Breve descripción del evento]
+ + ...
+
+#### Febrero
+
+* **Publicaciones**
+ + [Fecha]: [Título del contenido]: [Breve descripción del contenido]
+ + [Fecha]: [Título del contenido]: [Breve descripción del contenido]
+ + ...
+* **Actualizaciones en redes sociales**
+ + [Fecha]: [Tipo de publicación]: [Descripción de la publicación]
+ + [Fecha]: [Tipo de publicación]: [Descripción de la publicación]
+ + ...
+* **Noticias y eventos**
+ + [Fecha]: [Nombre del evento]: [Breve descripción del evento]
+ + [Fecha]: [Nombre del evento]: [Breve descripción del evento]
+ + ...
+
+#### Marzo
+
+* **Publicaciones**
+ + [Fecha]: [Título del contenido]: [Breve descripción del contenido]
+ + [Fecha]: [Título del contenido]: [Breve descripción del contenido]
+ + ...
+* **Actualizaciones en redes sociales**
+ + [Fecha]: [Tipo de publicación]: [Descripción de la publicación]
+ + [Fecha]: [Tipo de publicación]: [Descripción de la publicación]
+ + ...
+* **Noticias y eventos**
+ + [Fecha]: [Nombre del evento]: [Breve descripción del evento]
+ + [Fecha]: [Nombre del evento]: [Breve descripción del evento]
+ + ...
+
+#### Abril
+
+* **Publicaciones**
+ + [Fecha]: [Título del contenido]: [Breve descripción del contenido]
+ + [Fecha]: [Título del contenido]: [Breve descripción del contenido]
+ + ...
+* **Actualizaciones en redes sociales**
+ + [Fecha]: [Tipo de publicación]: [Descripción de la publicación]
+ + [Fecha]: [Tipo de publicación]: [Descripción de la publicación]
+ + ...
+* **Noticias y eventos**
+ + [Fecha]: [Nombre del evento]: [Breve descripción del evento]
+ + [Fecha]: [Nombre del evento]: [Breve descripción del evento]
+ + ...
+
+#### Mayo
+
+* **Publicaciones**
+ + [Fecha]: [Título del contenido]: [Breve descripción del contenido]
+ + [Fecha]: [Título del contenido]: [Breve descripción del contenido]
+ + ...
+* **Actualizaciones en redes sociales**
+ + [Fecha]: [Tipo de publicación]: [Descripción de la publicación]
+ + [Fecha]: [Tipo de publicación]: [Descripción de la publicación]
+ + ...
+* **Noticias y eventos**
+ + [Fecha]: [Nombre del evento]: [Breve descripción del evento]
+ + [Fecha]: [Nombre del evento]: [Breve descripción del evento]
+ + ...
+
+#### Junio
+
+* **Publicaciones**
+ + [Fecha]: [Título del contenido]: [Breve descripción del contenido]
+ + [Fecha]: [Título del contenido]: [Breve descripción del contenido]
+ + ...
+* **Actualizaciones en redes sociales**
+ + [Fecha]: [Tipo de publicación]: [Descripción de la publicación]
+ + [Fecha]: [Tipo de publicación]: [Descripción de la publicación]
+ + ...
+* **Noticias y eventos**
+ + [Fecha]: [Nombre del evento]: [Breve descripción del evento]
+ + [Fecha]: [Nombre del evento]: [Breve descripción del evento]
+ + ...
+
+#### Julio
+
+* **Publicaciones**
+ + [Fecha]: [Título del contenido]: [Breve descripción del contenido]
+ + [Fecha]: [Título del contenido]: [Breve descripción del contenido]
+ + ...
+* **Actualizaciones en redes sociales**
+ + [Fecha]: [Tipo de publicación]: [Descripción de la publicación]
+ + [Fecha]: [Tipo de publicación]: [Descripción de la publicación]
+ + ...
+* **Noticias y eventos**
+ + [Fecha]: [Nombre del evento]: [Breve descripción del evento]
+ + [Fecha]: [Nombre del evento]: [Breve descripción del evento]
+ + ...
+
+#### Agosto
+
+* **Publicaciones**
+ + [Fecha]: [Título del contenido]: [Breve descripción del contenido]
+ + [Fecha]: [Título del contenido]: [Breve descripción del contenido]
+ + ...
+* **Actualizaciones en redes sociales**
+ + [Fecha]: [Tipo de publicación]: [Descripción de la publicación]
+ + [Fecha]: [Tipo de publicación]: [Descripción de la publicación]
+ + ...
+* **Noticias y eventos**
+ + [Fecha]: [Nombre del evento]: [Breve descripción del evento]
+ + [Fecha]: [Nombre del evento]: [Breve descripción del evento]
+ + ...
+
+#### Septiembre
+
+* **Publicaciones**
+ + [Fecha]: [Título del contenido]: [Breve descripción del contenido]
+ + [Fecha]: [Título del contenido]: [Breve descripción del contenido]
+ + ...
+* **Actualizaciones en redes sociales**
+ + [Fecha]: [Tipo de publicación]: [Descripción de la publicación]
+ + [Fecha]: [Tipo de publicación]: [Descripción de la publicación]
+ + ...
+* **Noticias y eventos**
+ + [Fecha]: [Nombre del evento]: [Breve descripción del evento]
+ + [Fecha]: [Nombre del evento]: [Breve descripción del evento]
+ + ...
+
+#### Octubre
+
+* **Publicaciones**
+ + [Fecha]: [Título del contenido]: [Breve descripción del contenido]
+ + [Fecha]: [Título del contenido]: [Breve descripción del contenido]
+ + ...
+* **Actualizaciones en redes sociales**
+ + [Fecha]: [Tipo de publicación]: [Descripción de la publicación]
+ + [Fecha]: [Tipo de publicación]: [Descripción de la publicación]
+ + ...
+* **Noticias y eventos**
+ + [Fecha]: [Nombre del evento]: [Breve descripción del evento]
+ + [Fecha]: [Nombre del evento]: [Breve descripción del evento]
+ + ...
+
+#### Noviembre
+
+* **Publicaciones**
+ + [Fecha]: [Título del contenido]: [Breve descripción del contenido]
+ + [Fecha]: [Título del contenido]: [Breve descripción del contenido]
+ + ...
+* **Actualizaciones en redes sociales**
+ + [Fecha]: [Tipo de publicación]: [Descripción de la publicación]
+ + [Fecha]: [Tipo de publicación]: [Descripción de la publicación]
+ + ...
+* **Noticias y eventos**
+ + [Fecha]: [Nombre del evento]: [Breve descripción del evento]
+ + [Fecha]: [Nombre del evento]: [Breve descripción del evento]
+ + ...
+
+#### Diciembre
+
+* **Publicaciones**
+ + [Fecha]: [Título del contenido]: [Breve descripción del contenido]
+ + [Fecha]: [Título del contenido]: [Breve descripción del contenido]
+ + ...
+* **Actualizaciones en redes sociales**
+ + [Fecha]: [Tipo de publicación]: [Descripción de la publicación]
+ + [Fecha]: [Tipo de publicación]: [Descripción de la publicación]
+ + ...
+* **Noticias y eventos**
+ + [Fecha]: [Nombre del evento]: [Breve descripción del evento]
+ + [Fecha]: [Nombre del evento]: [Breve descripción del evento]
+ + ...
+
+### Recursos Adicionales
+
+* **Imágenes**: [Insertar enlaces a imágenes relevantes]
+* **Videos**: [Insertar enlaces a videos relevantes]
+* **Archivos**: [Insertar enlaces a archivos relevantes]
+
+### Notas y Recordatorios
+
+* **Fecha límite para publicaciones**: [Insertar fecha límite]
+* **Fecha límite para actualizaciones en redes sociales**: [Insertar fecha límite]
+* **Fecha límite para noticias y eventos**: [Insertar fecha límite]
+
+Esta plantilla puede ser adaptada y personalizada según las necesidades específicas de tu equipo de marketing de contenidos.
+
+============================================================
+Gracias por tu compra!
+AI Business Engine - davidverse0888.gumroad.com
+============================================================
