@@ -1,78 +1,95 @@
 #!/usr/bin/env python3
-"""
-Gumroad Publisher - Creates product listings on Gumroad via API.
-Uses Gumroad API: https://app.gumroad.com/api
-"""
 import sys, json, os, requests
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).parent.parent))
-
+BASE = Path(__file__).parent.parent
 GUMROAD_API = "https://api.gumroad.com/v2"
 
-def get_products():
-    catalog = Path(__file__).parent.parent / "products" / "catalog.json"
-    if not catalog.exists():
-        print("❌ No catalog.json found. Run generate-products.py first.")
+def get_catalog():
+    cat = BASE / "products" / "catalog.json"
+    if not cat.exists():
         return []
-    with open(catalog) as f:
-        return json.load(f)
+    return json.loads(cat.read_text())
 
-def publish_product(product: dict) -> dict:
+def get_product_content(pid):
+    for subdir in ["prompt-packs", "templates", "ebooks", "code-bundles"]:
+        fp = BASE / "products" / subdir / f"{pid}.json"
+        if fp.exists():
+            data = json.loads(fp.read_text())
+            return data.get("full_content", "")
+    return ""
+
+def publish_all():
     token = os.environ.get("GUMROAD_TOKEN", "")
-    email = os.environ.get("GUMROAD_EMAIL", "")
-
     if not token:
-        print(f"  ⚠️  No GUMROAD_TOKEN set. Skipping {product['id']}")
-        return {"status": "skipped", "reason": "no_token"}
-
-    payload = {
-        "access_token": token,
-        "name": product.get("title_es", product.get("title_en", "Product")),
-        "description": product.get("description_es", product.get("description_en", "")),
-        "price": int(float(product.get("price_usd", 9.99)) * 100),
-        "currency": "usd",
-        "tags": ",".join(product.get("tags", [])),
-        "customizable_price": "true",
-        "max_purchase_count": None,
-    }
-
-    try:
-        resp = requests.post(f"{GUMROAD_API}/products", json=payload, timeout=30)
-        if resp.status_code in [200, 201]:
-            data = resp.json()
-            print(f"  ✅ Published: {payload['name']} (${product['price_usd']})")
-            return {"status": "published", "gumroad_id": data.get("product", {}).get("id")}
-        else:
-            print(f"  ❌ Failed: {payload['name']} - {resp.status_code}: {resp.text[:200]}")
-            return {"status": "error", "error": resp.text[:200]}
-    except Exception as e:
-        print(f"  ❌ Exception: {e}")
-        return {"status": "error", "error": str(e)}
-
-def main():
-    print("📦 Gumroad Publisher")
-    products = get_products()
-    if not products:
-        print("No products to publish.")
+        print("❌ GUMROAD_TOKEN not set")
         return 1
 
-    print(f"Found {len(products)} products in catalog")
+    products = get_catalog()
+    if not products:
+        print("❌ No products found")
+        return 1
 
-    published = []
-    for p in products:
-        result = publish_product(p)
-        published.append(result)
+    # Get existing products to avoid duplicates
+    existing = requests.get(f"{GUMROAD_API}/products?access_token={token}", timeout=15).json()
+    existing_names = {p["name"] for p in existing.get("products", [])}
 
-    stats = {"published": sum(1 for r in published if r["status"] == "published"), "total": len(published)}
-    print(f"\n✅ Published: {stats['published']}/{stats['total']}")
+    results = []
+    for i, p in enumerate(products, 1):
+        name = p.get("title_es", "Product")
+        if name in existing_names:
+            print(f"  [{i}/{len(products)}] ⏭️  Already published: {name[:50]}")
+            results.append({"id": p["id"], "status": "exists"})
+            continue
 
-    # Save publish log
-    log_path = Path(__file__).parent.parent / "products" / "publish_log.json"
-    with open(log_path, "w") as f:
-        json.dump({"date": __import__("datetime").datetime.now().isoformat(), "results": published}, f, indent=2)
+        pid = p["id"]
+        content = get_product_content(pid)
+        price_cents = int(float(p.get("price_usd", 9.99)) * 100)
+        tags = ",".join(p.get("tags", [])[:4])
 
+        description = f"# {name}\n\n{p.get('tagline', '')}\n\n---\n\n## 📋 Descripción\n{content[:3000]}\n\n---\n\n## 🎯 ¿Para quién es?\n{p.get('target_audience', 'Para emprendedores digitales')}\n\n## 💡 ¿Qué obtendrás?\n{p.get('what_they_get', 'Contenido premium')}"
+
+        try:
+            resp = requests.post(
+                f"{GUMROAD_API}/products?access_token={token}",
+                data={
+                    "name": name,
+                    "description": description,
+                    "price": price_cents,
+                    "currency": "usd",
+                    "tags": tags,
+                    "customizable_price": "true",
+                    "require_shipping": "false",
+                },
+                timeout=30,
+            )
+            data = resp.json()
+            if data.get("success"):
+                product_url = data.get("product", {}).get("short_url", "")
+                print(f"  [{i}/{len(products)}] ✅ ${p['price_usd']:.0f} - {name[:50]} - {product_url}")
+                results.append({"id": pid, "status": "published", "url": product_url})
+            else:
+                err = data.get("message", resp.text[:200])
+                print(f"  [{i}/{len(products)}] ❌ {name[:40]}: {err}")
+                results.append({"id": pid, "status": "error", "error": err})
+        except Exception as e:
+            print(f"  [{i}/{len(products)}] ❌ {name[:40]}: {e}")
+            results.append({"id": pid, "status": "error", "error": str(e)})
+
+    # Save log
+    log = BASE / "products" / "publish_log.json"
+    log.write_text(json.dumps({"date": __import__("datetime").datetime.now().isoformat(), "results": results}, indent=2, ensure_ascii=False))
+
+    ok = sum(1 for r in results if r["status"] in ["published", "exists"])
+    print(f"\n✅ Publicados: {ok}/{len(products)}")
+
+    # Show URLs
+    urls = [r["url"] for r in results if "url" in r]
+    if urls:
+        print(f"\n🔗 Enlaces:")
+        for u in urls:
+            print(f"   {u}")
     return 0
 
 if __name__ == "__main__":
-    sys.exit(main())
+    sys.exit(publish_all())

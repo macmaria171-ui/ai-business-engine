@@ -1,0 +1,27 @@
+{
+  "title": "I will develop custom Python scripts and automations",
+  "category": "Programming & Tech",
+  "subcategory": "Python",
+  "packages": [
+    {
+      "name": "Basic",
+      "price": 20,
+      "delivery": 3,
+      "description": "Simple script (up to 100 lines)"
+    },
+    {
+      "name": "Standard",
+      "price": 50,
+      "delivery": 5,
+      "description": "Medium automation with error handling"
+    },
+    {
+      "name": "Premium",
+      "price": 120,
+      "delivery": 7,
+      "description": "Full automation system with GUI/API"
+    }
+  ],
+  "description": "## 📌 Descripción del Gig  \n\n**¿Necesitas un script Python a medida que ahorre tiempo, reduzca errores y haga crecer tu negocio?**  \nYo desarrollo soluciones 100 % personalizadas: desde pequeños scripts de automatización hasta sistemas completos con interfaz gráfica o API.  \n\n### ¿Qué obtienes al contratarme?  \n\n| ✅ | **Calidad profesional** – Código limpio, bien documentado y testeado.  \n| ✅ | **Entrega puntual** – Cumplo con los plazos indicados en cada paquete.  \n| ✅ | **Comunicación clara** – Respondo rápido y mantengo el proyecto bajo control.  \n| ✅ | **Soporte post‑entrega** – 3 días de ajustes menores incluidos (más si lo requieres).  \n\nSoy ingeniero de software con 5 años de experiencia en Python, automatización de procesos (web‑scraping, APIs, bases de datos) y desarrollo de GUIs con Tkinter/Streamlit. He ayudado a startups y pymes a eliminar tareas repetitivas, reducir costos y acelerar su operación.  \n\n**Elige el paquete que mejor se adapte a tu necesidad y deja que tu idea se convierta en código funcional.**  \n\n---  \n\n## 🎁 Paquetes  \n\n| **Paquete** | **Precio** | **Entrega** | **Incluye** |\n|------------|------------|-------------|-------------|\n| **Basic** | $20 | 3 días | Script sencillo (≤ 100 líneas) – funcionalidad básica, sin dependencias complejas. |\n| **Standard** | $50 | 5 días | Automatización media – manejo de errores, logs, integración con APIs o archivos. |\n| **Premium** | $120 | 7 días | Sistema completo – automatización integral, GUI o API, documentación y pruebas. |\n\n---  \n\n## ❓ Preguntas Frecuentes  \n\n**1️⃣ ¿Qué tan complejo puede ser el script que solicito?**  \nPuedo crear cualquier solución dentro del alcance del paquete elegido. Si el proyecto supera esas especificaciones, te haré una propuesta personalizada sin compromiso.  \n\n**2️⃣ ¿Trabajas con entornos virtuales o despliegues en servidores?**  \nSí. Configuro entornos virtuales (`venv` o `conda`) y puedo preparar scripts listos para producción en AWS, Azure, Heroku o tu propio servidor.  \n\n**3️⃣ ¿Qué pasa si después de la entrega descubro un bug?**  \nIncluyo 3 días de soporte post‑entrega para corregir pequeños errores o ajustes menores. Si necesitas cambios mayores, te ofreceré una cotización adicional.  \n\n---  \n\n## 📋 Requisitos del comprador  \n\nPara iniciar el proyecto, por favor envíame lo siguiente:  \n\n1. **Descripción detallada** de la tarea o proceso a automatizar.  \n2. **Ejemplos de datos** (archivos CSV, JSON, etc.) o acceso a la API (documentación y credenciales temporales).  \n3. **Preferencias de librerías** (si tienes alguna) o restricciones de entorno.  \n4. **Objetivo de salida** (archivo, reporte, mensaje en Slack, etc.) y cualquier formato requerido.  \n5. **Plazo deseado** (si es diferente al estándar del paquete).  \n\nCon esta información podré ofrecerte una estimación exacta y comenzar a codificar de inmediato.  \n\n---  \n\n### ¡Transforma tu idea en código hoy!  \nHaz clic en **“Continuar”**, selecciona el paquete que necesitas y envíame los requisitos. Estoy listo para crear la solución Python que impulse tu productividad. 🚀",
+  "optimized_at": "2026-06-11T02:10:50.763730"
+}
