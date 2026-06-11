@@ -1,0 +1,317 @@
+[
+  {
+    "id": "prompt-pack-1",
+    "type": "prompt-pack",
+    "niche": "marketing digital",
+    "title_es": "Pack de Prompts para Campañas Virales",
+    "title_en": "Viral Campaign Prompt Pack",
+    "tagline": "Impulsa tu alcance con textos irresistibles",
+    "description_es": "Una colección de 50 prompts diseñados para generar ideas de contenido viral en redes sociales, optimizados para captar la atención y aumentar la interacción.",
+    "price_usd": 9,
+    "tags": [
+      "social media",
+      "viral",
+      "content creation",
+      "engagement"
+    ],
+    "target_audience": "Community managers y creadores de contenido",
+    "what_they_get": "Ideas listas para publicar que aumentan la visibilidad",
+    "status": "pending",
+    "generated_at": "2026-06-11T01:38:10.823350",
+    "content_preview": "See full product for content"
+  },
+  {
+    "id": "prompt-pack-2",
+    "type": "prompt-pack",
+    "niche": "e-commerce",
+    "title_es": "Prompts de Copy para Tiendas Online",
+    "title_en": "E‑commerce Copy Prompt Pack",
+    "tagline": "Convierte visitas en ventas con palabras persuasivas",
+    "description_es": "50 prompts que generan descripciones de producto, emails de carrito abandonado y anuncios de pago, adaptados a diferentes tonos de marca.",
+    "price_usd": 11,
+    "tags": [
+      "copywriting",
+      "e‑commerce",
+      "sales",
+      "conversion"
+    ],
+    "target_audience": "Dueños de tiendas online y copywriters",
+    "what_they_get": "Textos que aumentan la tasa de conversión",
+    "status": "pending",
+    "generated_at": "2026-06-11T01:38:10.823361",
+    "content_preview": "See full product for content"
+  },
+  {
+    "id": "prompt-pack-3",
+    "type": "prompt-pack",
+    "niche": "desarrollo personal",
+    "title_es": "Prompts de Coaching para Crecimiento Personal",
+    "title_en": "Personal Growth Coaching Prompts",
+    "tagline": "Reflexiona y avanza con preguntas poderosas",
+    "description_es": "30 prompts diseñados para sesiones de coaching, diarios y ejercicios de auto‑evaluación que fomentan la claridad y la acción.",
+    "price_usd": 8,
+    "tags": [
+      "coaching",
+      "self‑improvement",
+      "mindset",
+      "journaling"
+    ],
+    "target_audience": "Coaches, mentores y personas en desarrollo personal",
+    "what_they_get": "Herramientas para guiar conversaciones transformadoras",
+    "status": "pending",
+    "generated_at": "2026-06-11T01:38:10.823364",
+    "content_preview": "See full product for content"
+  },
+  {
+    "id": "prompt-pack-4",
+    "type": "prompt-pack",
+    "niche": "educación online",
+    "title_es": "Prompts para Cursos Interactivos",
+    "title_en": "Interactive Course Prompt Pack",
+    "tagline": "Diseña lecciones que enganchen y retengan",
+    "description_es": "Una serie de 40 prompts que ayudan a crear actividades, quizzes y casos prácticos para plataformas de aprendizaje digital.",
+    "price_usd": 10,
+    "tags": [
+      "edtech",
+      "e‑learning",
+      "instructional design",
+      "engagement"
+    ],
+    "target_audience": "Instructores y diseñadores instruccionales",
+    "what_they_get": "Materiales listos para usar que mejoran la experiencia del alumno",
+    "status": "pending",
+    "generated_at": "2026-06-11T01:38:10.823366",
+    "content_preview": "See full product for content"
+  },
+  {
+    "id": "prompt-pack-5",
+    "type": "prompt-pack",
+    "niche": "finanzas personales",
+    "title_es": "Prompts de Asesoría Financiera",
+    "title_en": "Personal Finance Advisory Prompts",
+    "tagline": "Planifica, ahorra y crece con preguntas estratégicas",
+    "description_es": "25 prompts que guían a los usuarios a crear presupuestos, establecer metas de ahorro y evaluar inversiones de forma sencilla.",
+    "price_usd": 7,
+    "tags": [
+      "finance",
+      "budgeting",
+      "savings",
+      "investing"
+    ],
+    "target_audience": "Asesores financieros y usuarios que buscan organizar sus finanzas",
+    "what_they_get": "Estructuras de conversación que facilitan decisiones financieras",
+    "status": "pending",
+    "generated_at": "2026-06-11T01:38:10.823367",
+    "content_preview": "See full product for content"
+  },
+  {
+    "id": "template-1",
+    "type": "template",
+    "niche": "marketing de contenidos",
+    "title_es": "Plantilla de Calendario Editorial 2024",
+    "title_en": "2024 Editorial Calendar Template",
+    "tagline": "Planifica tu contenido mes a mes sin perder detalle",
+    "description_es": "Formato editable en Google Sheets con columnas para tema, formato, canal, fecha de publicación y métricas de rendimiento.",
+    "price_usd": 12,
+    "tags": [
+      "content calendar",
+      "planning",
+      "marketing",
+      "productivity"
+    ],
+    "target_audience": "Marketers y gestores de contenido",
+    "what_they_get": "Organización visual que garantiza consistencia y resultados",
+    "status": "pending",
+    "generated_at": "2026-06-11T01:38:10.823369",
+    "content_preview": "See full product for content"
+  },
+  {
+    "id": "template-2",
+    "type": "template",
+    "niche": "desarrollo web",
+    "title_es": "Template de Landing Page SaaS",
+    "title_en": "SaaS Landing Page Template",
+    "tagline": "Convierte visitantes en usuarios con un diseño probado",
+    "description_es": "Archivo HTML/CSS listo para personalizar, incluye secciones de hero, características, testimonios y llamado a la acción optimizado.",
+    "price_usd": 16,
+    "tags": [
+      "web design",
+      "landing page",
+      "SaaS",
+      "conversion"
+    ],
+    "target_audience": "Fundadores de startups y diseñadores web",
+    "what_they_get": "Una página de alta conversión en minutos",
+    "status": "pending",
+    "generated_at": "2026-06-11T01:38:10.823370",
+    "content_preview": "See full product for content"
+  },
+  {
+    "id": "template-3",
+    "type": "template",
+    "niche": "recursos humanos",
+    "title_es": "Plantilla de Evaluación de Desempeño",
+    "title_en": "Performance Review Template",
+    "tagline": "Evalúa y potencia el talento de tu equipo",
+    "description_es": "Documento Word editable con criterios, escala de puntuación y espacio para feedback constructivo, adaptable a cualquier industria.",
+    "price_usd": 14,
+    "tags": [
+      "HR",
+      "performance",
+      "evaluation",
+      "feedback"
+    ],
+    "target_audience": "Gerentes y departamentos de recursos humanos",
+    "what_they_get": "Proceso estructurado que mejora la gestión del talento",
+    "status": "pending",
+    "generated_at": "2026-06-11T01:38:10.823372",
+    "content_preview": "See full product for content"
+  },
+  {
+    "id": "ebook-1",
+    "type": "ebook",
+    "niche": "productividad",
+    "title_es": "Domina la Técnica Pomodoro",
+    "title_en": "Mastering the Pomodoro Technique",
+    "tagline": "Multiplica tu foco en 25 minutos",
+    "description_es": "Guía práctica de 45 páginas que explica la historia, la ciencia y los trucos avanzados para aplicar Pomodoro en cualquier tipo de trabajo.",
+    "price_usd": 9,
+    "tags": [
+      "productivity",
+      "time management",
+      "Pomodoro",
+      "focus"
+    ],
+    "target_audience": "Profesionales y estudiantes que buscan gestionar mejor su tiempo",
+    "what_they_get": "Método probado para aumentar la concentración y reducir la procrastinación",
+    "status": "pending",
+    "generated_at": "2026-06-11T01:38:10.823373",
+    "content_preview": "See full product for content"
+  },
+  {
+    "id": "ebook-2",
+    "type": "ebook",
+    "niche": "nutrición",
+    "title_es": "Recetas Veganas Rápidas para la Semana",
+    "title_en": "Quick Vegan Weekday Recipes",
+    "tagline": "Comida saludable sin pasar horas en la cocina",
+    "description_es": "30 recetas fáciles, con lista de compras y valores nutricionales, diseñadas para personas con poco tiempo pero que quieren comer bien.",
+    "price_usd": 13,
+    "tags": [
+      "vegan",
+      "recipes",
+      "healthy eating",
+      "quick meals"
+    ],
+    "target_audience": "Veganos y personas que buscan opciones rápidas y nutritivas",
+    "what_they_get": "Menús semanales que ahorran tiempo y mejoran la salud",
+    "status": "pending",
+    "generated_at": "2026-06-11T01:38:10.823375",
+    "content_preview": "See full product for content"
+  },
+  {
+    "id": "ebook-3",
+    "type": "ebook",
+    "niche": "emprendimiento",
+    "title_es": "Guía de Validación de Ideas de Negocio",
+    "title_en": "Idea Validation Blueprint",
+    "tagline": "Transforma una idea en una oportunidad real",
+    "description_es": "Ebook de 60 páginas con frameworks, ejemplos y ejercicios paso a paso para validar mercado, clientes y viabilidad antes de lanzar.",
+    "price_usd": 12,
+    "tags": [
+      "startup",
+      "validation",
+      "lean",
+      "entrepreneurship"
+    ],
+    "target_audience": "Emprendedores y futuros fundadores",
+    "what_they_get": "Un proceso estructurado que reduce riesgos y acelera el lanzamiento",
+    "status": "pending",
+    "generated_at": "2026-06-11T01:38:10.823376",
+    "content_preview": "See full product for content"
+  },
+  {
+    "id": "ebook-4",
+    "type": "ebook",
+    "niche": "fotografía",
+    "title_es": "Domina la Luz Natural en Fotografía",
+    "title_en": "Mastering Natural Light Photography",
+    "tagline": "Captura imágenes impactantes sin equipos costosos",
+    "description_es": "Manual de 50 páginas que cubre teoría de la luz, técnicas de exposición y trucos para aprovechar la luz del día en cualquier entorno.",
+    "price_usd": 8,
+    "tags": [
+      "photography",
+      "lighting",
+      "natural light",
+      "technique"
+    ],
+    "target_audience": "Fotógrafos aficionados y profesionales que buscan mejorar su uso de la luz",
+    "what_they_get": "Habilidades para crear fotos profesionales usando solo luz natural",
+    "status": "pending",
+    "generated_at": "2026-06-11T01:38:10.823378",
+    "content_preview": "See full product for content"
+  },
+  {
+    "id": "code-bundle-1",
+    "type": "code-bundle",
+    "niche": "automatización",
+    "title_es": "Scripts de Automatización con Python",
+    "title_en": "Python Automation Scripts Bundle",
+    "tagline": "Ahorra horas con código listo para usar",
+    "description_es": "Colección de 10 scripts en Python para tareas comunes: scraping, envío de emails, generación de reportes y manejo de APIs, con documentación paso a paso.",
+    "price_usd": 18,
+    "tags": [
+      "python",
+      "automation",
+      "scripts",
+      "productivity"
+    ],
+    "target_audience": "Desarrolladores y profesionales que buscan automatizar procesos",
+    "what_they_get": "Herramientas listas para integrar y reducir trabajo manual",
+    "status": "pending",
+    "generated_at": "2026-06-11T01:38:10.823379",
+    "content_preview": "See full product for content"
+  },
+  {
+    "id": "code-bundle-2",
+    "type": "code-bundle",
+    "niche": "desarrollo web",
+    "title_es": "Componentes UI React Premium",
+    "title_en": "Premium React UI Components",
+    "tagline": "Construye interfaces modernas en minutos",
+    "description_es": "Paquete de 15 componentes React (botones, tablas, modales) con estilos Tailwind, accesibilidad y ejemplos de uso.",
+    "price_usd": 20,
+    "tags": [
+      "react",
+      "ui",
+      "components",
+      "frontend"
+    ],
+    "target_audience": "Desarrolladores front‑end y startups que buscan acelerar el desarrollo",
+    "what_they_get": "Componentes reutilizables que mejoran la velocidad y calidad del UI",
+    "status": "pending",
+    "generated_at": "2026-06-11T01:38:10.823381",
+    "content_preview": "See full product for content"
+  },
+  {
+    "id": "code-bundle-3",
+    "type": "code-bundle",
+    "niche": "data science",
+    "title_es": "Toolkit de Análisis de Datos con R",
+    "title_en": "R Data Analysis Toolkit",
+    "tagline": "Transforma datos crudos en insights accionables",
+    "description_es": "Conjunto de 8 scripts R para limpieza, visualización, modelado estadístico y generación de dashboards interactivos con Shiny.",
+    "price_usd": 22,
+    "tags": [
+      "R",
+      "data science",
+      "analytics",
+      "shiny"
+    ],
+    "target_audience": "Analistas de datos y científicos que trabajan con R",
+    "what_they_get": "Framework completo para proyectos de análisis rápido y reproducible",
+    "status": "pending",
+    "generated_at": "2026-06-11T01:38:10.823382",
+    "content_preview": "See full product for content"
+  }
+]
